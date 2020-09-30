@@ -1,4 +1,35 @@
 ﻿img{
-    height: 15%;
-    width: 10%;
+    padding: 5px;
+    height: 15vw;
+    width: 10vw;
+}
+
+.covers{
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.cards{
+    flex: 1 1 25%;
+    margin: 5px;
+    text-align: center;
+}
+
+.best-covers{
+    background-color: #B22222;
+    text-align: center;
+}
+
+.impt-covers{
+    background-color: #BA55D3;
+}
+
+.fun-covers{
+    background-color: #48D1CC;
+}
+
+.legd-covers{
+    background-color: #ADFF2F;
 }
